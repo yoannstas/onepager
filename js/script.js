@@ -10,7 +10,7 @@ function countUp(maxNum, id, timeInterval) {
         }
     }, timeInterval);
 }
-countUp(35, 'age', 300);
+countUp(35, 'age', 200);
 
 $(window).scroll(function() {
     $('.fade-in').each(function() {

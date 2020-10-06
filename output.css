@@ -12,6 +12,7 @@
 }
 body {
   color: #1a1d21;
+  background-color: #ffffff;
   cursor: url("assets/cursor_4.png"), auto;
   scroll-behavior: smooth;
 }
@@ -88,7 +89,7 @@ body {
 
 hr {
   border-top: 1px solid black;
-  width: 80%;
+  width: 60%;
 }
 
 h1 {
@@ -124,6 +125,10 @@ div.card {
   margin-right: auto;
 }
 
+p.card-text {
+  font-size: 90%;
+}
+
 #id {
   font-size: 200px;
 }
@@ -139,8 +144,9 @@ p:first-child::first-letter {
 }
 
 #work {
-  color: #f3b18f;
-}
+  color: #ffffff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;}
 
 .portfolio {
   padding-top: 80px;
@@ -148,7 +154,7 @@ p:first-child::first-letter {
 }
 
 .contact {
-  background-color: #ff3849;
+  background-color: #00D9E9;
   padding: 40px;
 }
 
@@ -219,13 +225,15 @@ h1.card-text.keyword {
 }
 
 h1#age.card-text {
-  color: #00D9E9;
+  color: #ffffff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .listTitle {
   font-family: "r-bold";
   font-size: 18px;
-  color: #a05151;
+  color: #00D9E9;
 }
 
 .listContent {
@@ -236,7 +244,7 @@ h1#age.card-text {
 .client {
   font-family: r-bold;
   font-size: 40px;
-  color: #ed969e;
+  color: #00D9E9;
 }
 
 .prInfo {
@@ -274,7 +282,7 @@ h6 {
 }
 
 .fas {
-  color: #f3b18f;
+  color: #00D9E9;
   margin-right: 20px;
   margin-left: 40px;
 }
@@ -363,8 +371,8 @@ color: #000000;
 
 .underline {
   text-decoration: underline;
-  -webkit-text-decoration-color: #f3b18f;
-  text-decoration-color: #f3b18f;
+  -webkit-text-decoration-color: #00D9E9;
+  text-decoration-color: #00D9E9;
 }
 
 a {
@@ -372,5 +380,8 @@ a {
 }
 
 a:hover {
-  color: #00d9e9;
+  color: #ffffff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-decoration: none;
 }
