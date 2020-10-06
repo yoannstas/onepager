@@ -38,4 +38,4 @@ else if (hrs >= 17 && hrs <= 24)
     greet = 'Good Evening!';
 
 document.getElementById('greeting').innerHTML =
-    '<b>' + greet + '</b> <br>I am Yoann. <br> A multidisciplinary designer.';
+   greet + '<br>I am Yoann. <br> A multidisciplinary designer.';

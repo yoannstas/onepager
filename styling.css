@@ -1,0 +1,375 @@
+@font-face {
+  font-family: "r-bold";
+  src: url("fonts/MohrRoundedAlt-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "s-regular";
+  src: url("fonts/SFProDisplay-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "r-light";
+  src: url("fonts/MohrRoundedAlt-Light.woff2") format("woff2");
+}
+body {
+  color: black;
+  cursor: url("assets/cursor_4.png"), auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+#age {
+  font-size: 50px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 80%;
+}
+
+h1 {
+  font-family: "r-bold", sans-serif;
+  transform: rotate(20deg);
+}
+
+h5 {
+  font-family: "r-bold", sans-serif;
+}
+
+h3 {
+  font-family: "r-bold", sans-serif;
+  color: #171a1d;
+}
+
+p {
+  font-family: "s-regular", sans-serif;
+  font-size: 120%;
+}
+
+div.card {
+  margin-top: 20px;
+  border: 10px black;
+  border-radius: 10px;
+  text-align: center;
+  align-content: center;
+}
+
+.card-img-top {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#id {
+  font-size: 200px;
+}
+
+p:first-child::first-letter {
+  font-size: 40px;
+}
+
+.pic_yoann {
+  border-radius: 50%;
+  float: left;
+  margin-left: 50px;
+}
+
+#work {
+  color: #f3b18f;
+}
+
+.portfolio {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact {
+  background-color: #F4BEC3;
+  padding: 40px;
+}
+
+.specialities {
+  padding: 100px;
+}
+
+.inverted {
+  color: white;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+#circular {
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.disclaimer {
+  color: white;
+}
+
+.spinning {
+  margin-right: 20px;
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+  transform-style: preserve-3d;
+  text-align: center;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+#frontend #design #branding {
+  height: 30px;
+}
+
+.ido {
+  margin-bottom: 100px;
+}
+
+h1.card-text.keyword {
+  color: #00D9E9;
+}
+
+.facts {
+  margin-top: 50px;
+}
+
+.marquee {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  font-family: "r-light", sans-serif;
+  font-size: 80px;
+  color: white;
+  -webkit-text-stroke: 1px #f3b18f;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee2 span {
+  animation-delay: 4s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.brands {
+  margin-bottom: 100px;
+}
+
+h1#age.card-text {
+  color: #00D9E9;
+}
+
+.listTitle {
+  font-family: "r-bold";
+  font-size: 18px;
+  color: #a05151;
+}
+
+.listContent {
+  font-family: "r-light";
+  font-size: 17px;
+}
+
+.client {
+  font-family: r-bold;
+  font-size: 40px;
+  color: #ed969e;
+}
+
+.prInfo {
+  font-family: r-light;
+  font-size: 40px;
+  color: black;
+}
+
+.info {
+  font-size: 14px;
+  color: black;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.intro {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.project {
+  margin-top: 100px;
+  height: 800px;
+}
+
+.carousel {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+h6 {
+  font-family: "s-regular", sans-serif;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.fas {
+  color: #f3b18f;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 1200px;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+  transform: rotate(20deg);
+}
+
+/*# sourceMappingURL=styling.css.map */
