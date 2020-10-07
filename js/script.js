@@ -30,12 +30,14 @@ var hrs = myDate.getHours();
 
 var greet;
 
-if (hrs < 12)
+if (hrs < 6)
     greet = 'Good Morning!';
 else if (hrs >= 12 && hrs <= 17)
     greet = 'Good Afternoon!';
 else if (hrs >= 17 && hrs <= 24)
     greet = 'Good Evening!';
+else if (hrs >= 24 && hrs <= 6)
+    greet = 'Good night!';
 
 document.getElementById('greeting').innerHTML =
    greet + '<br>I am Yoann. <br> A multidisciplinary designer.';
