@@ -11,13 +11,10 @@
   src: url("fonts/MohrRoundedAlt-Light.woff2") format("woff2");
 }
 body {
-  color: #1a1d21;
+  color: #000000;
   background-color: #ffffff;
   cursor: url("assets/cursor_4.png"), auto;
   scroll-behavior: smooth;
-}
-
-body {
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s;
@@ -107,6 +104,10 @@ h5 {
 h3 {
   font-family: "r-bold", sans-serif;
   color: #171a1d;
+}
+
+div.card-body{
+  background-color: #ffffff;
 }
 
 p {
@@ -235,9 +236,8 @@ h1.card-text.keyword {
 }
 
 h1#age.card-text {
-  color: #ffffff;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  color: #00D9E9;
+
 }
 
 .listTitle {
@@ -322,7 +322,7 @@ h6 {
   content: "";
   height: 170px;
   position: absolute;
-  width: 50px;
+  width: 10px;
   z-index: 2;
 }
 .slider::after {
@@ -468,3 +468,4 @@ a:hover {
   font-size: 14px;
   margin-top: 10px;
 }
+
