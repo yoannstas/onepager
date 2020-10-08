@@ -89,7 +89,7 @@ body {
 
 hr {
   border-top: 1px solid black;
-  width: 60%;
+  width: 70%;
 }
 
 h1 {
@@ -145,6 +145,8 @@ p:first-child::first-letter {
   border-radius: 50%;
   float: left;
   margin-left: 50px;
+  height: 370px;
+  width: 370px;
 }
 
 #work {
@@ -322,7 +324,7 @@ h6 {
   content: "";
   height: 170px;
   position: absolute;
-  width: 10px;
+  width: 0px;
   z-index: 2;
 }
 .slider::after {

@@ -9,6 +9,23 @@
 
     }
 
+    .spinning {
+        transform: scale(0.8);
+    }
+
+    div.card-body {
+        padding: 0px;
+    }
+
+    img.mx-auto.d-block {
+        transform: scale(0.8);
+    }
+  img.pic_yoann {
+        align-content: center;
+      width: 300px;
+      height: 300px;
+    }
+
     .pic_yoann {
   text-align: center;
     }
@@ -47,12 +64,6 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
-    hr {
-        width: 90%;
-    }
-}
-
 @media only screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
@@ -61,4 +72,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .greeting {
         text-align: center;
     }
+
+
 }
