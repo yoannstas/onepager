@@ -1,10 +1,10 @@
 @font-face {
   font-family: "r-bold";
-  src: url("fonts/MohrRoundedAlt-SemiBold.woff2") format("woff2");
+  src: url("fonts/RecoletaAlt-Black.woff2") format("woff2");
 }
 @font-face {
   font-family: "s-regular";
-  src: url("fonts/SFProDisplay-Light.woff2") format("woff2");
+  src: url("fonts/TTNormsPro.woff2") format("woff2");
 }
 @font-face {
   font-family: "r-light";
@@ -12,7 +12,7 @@
 }
 body {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #efe5cf;
   cursor: url("assets/cursor_4.png"), auto;
   scroll-behavior: smooth;
   -webkit-animation: fadein 2s;
@@ -27,7 +27,7 @@ body {
 }
 
 #age {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 @keyframes fadein {
@@ -75,30 +75,53 @@ body {
   }
 }
 .navbar {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
 
+h1.loop {
+  border: 1px black;
+}
+
+.navhr {
+  width: 100%;
 }
 .navtitle {
-  font-size: 15px;
+  font-size: 13px;
+  font-family: s-regular;
 }
+
+.navtitle:hover {
+  text-decoration: underline;
+}
+
+
 .about {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  height: 100vh;
+  position: relative;
+  background-color: #63fff2;
+
 }
 
 hr {
   border-top: 1px solid black;
-  width: 70%;
+  width: 80%;
 }
 
 h1 {
   font-family: "r-bold", sans-serif;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 h5 {
   font-family: "r-bold", sans-serif;
+  font-style: oblique;
+
+}
+
+.introText {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h3 {
@@ -120,8 +143,11 @@ div.card {
   border-radius: 10px;
   text-align: center;
   align-content: center;
-  background-color: #ffffff;
   border: 0px;
+}
+
+.card {
+  background-color: #efe5cf;
 }
 
 .card-img-top {
@@ -150,9 +176,12 @@ p:first-child::first-letter {
 }
 
 #work {
-  color: #ffffff;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;}
+padding-bottom: 20px;
+  font-size: 20px;
+  font-family: s-regular;
+  color: #000000;
+text-decoration: underline;
+}
 
 .portfolio {
   padding-top: 80px;
@@ -210,7 +239,7 @@ p:first-child::first-letter {
   }
 }
 #frontend #design #branding {
-  height: 30px;
+  height: 20px;
 }
 
 .ido {
@@ -229,8 +258,9 @@ h1.card-text.keyword {
 }
 
 .facts {
-  margin-top: 70px;
-  margin-bottom: 60px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100vw;
 }
 
 .brands {
@@ -238,8 +268,9 @@ h1.card-text.keyword {
 }
 
 h1#age.card-text {
-  color: #00D9E9;
-
+  color: #ffc900;
+  font-size: 100px;
+margin: -8px;
 }
 
 .listTitle {
@@ -302,7 +333,7 @@ h6 {
   margin: 0 auto;
 }
 
-col
+
 
 
 
@@ -361,11 +392,10 @@ col
 .loop {
   margin-top: 20px;
   font-family: r-bold;
-  letter-spacing: -3px;
+  font-size: 30px;
+  letter-spacing: 3px;
   transform: rotate(20deg) ;
-color: #ffffff;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+color: #000000;
 }
 
 .loop:hover{
@@ -382,12 +412,36 @@ color: #ffffff;
 
 .underline {
   text-decoration: underline;
-  -webkit-text-decoration-color: #00D9E9;
-  text-decoration-color: #00D9E9;
+  -webkit-text-decoration-color: #F6B22E;
+  text-decoration-color: #F6B22E;
 }
 
 a {
   color: black;
+  font-family: s-regular;
+}
+
+.workLinks {
+  font-family: r-bold;
+  letter-spacing: -3px;
+
+}
+
+
+div.card-body {
+  background-color: #efe5cf;
+}
+
+
+.navigation {
+  background: #efe5cf;
+  width: 100vh;
+  height: 60px;
+  transform-origin: bottom left;
+  position: fixed;
+  left: 60px;
+  bottom: 0;
+  transform: rotate(-90deg);
 }
 
 a:hover {

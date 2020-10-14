@@ -10,7 +10,7 @@ function countUp(maxNum, id, timeInterval) {
         }
     }, timeInterval);
 }
-countUp(35, 'age', 200);
+countUp(1985, 'age', 2);
 
 $(window).scroll(function() {
     $('.fade-in').each(function() {
@@ -40,4 +40,5 @@ else if (hrs >= 24 && hrs <= 6)
     greet = 'Good night!';
 
 document.getElementById('greeting').innerHTML =
-   greet + '<br>I am Yoann. <br> A multidisciplinary designer.';
+   greet + '<br>I am Yoann; a multidisciplinary designer.';
+
