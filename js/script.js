@@ -1,7 +1,7 @@
 function countUp(maxNum, id, timeInterval) {
     let display = 0
     let interval = setInterval(function counting() {
-        display += 1;
+        display += 5;
         document.getElementById(id).innerHTML = display
 
         if (display === maxNum
@@ -10,7 +10,7 @@ function countUp(maxNum, id, timeInterval) {
         }
     }, timeInterval);
 }
-countUp(1985, 'age', 2);
+countUp(1985, 'age', 10);
 
 $(window).scroll(function() {
     $('.fade-in').each(function() {

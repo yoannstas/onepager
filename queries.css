@@ -3,6 +3,14 @@
    hr {
        width: 90%
    }
+    .navigation {
+        display: none;
+    }
+
+
+    .navigationSmall {
+        display: block;
+    }
 
     .about {
        margin-top: -20px;
@@ -42,6 +50,10 @@
       width: 300px;
       height: 300px;
     }
+
+  .gradient {
+      display: none;
+  }
 
     .pic_yoann {
   text-align: center;

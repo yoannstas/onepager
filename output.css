@@ -8,8 +8,14 @@
 }
 @font-face {
   font-family: "r-light";
-  src: url("fonts/MohrRoundedAlt-Light.woff2") format("woff2");
+  src: url("fonts/TTNormsPro.woff2") format("woff2");
 }
+
+.navigationSmall {
+  display: none;
+}
+
+
 body {
   color: #000000;
   background-color: #efe5cf;
@@ -87,12 +93,11 @@ h1.loop {
   width: 100%;
 }
 .navtitle {
-  font-size: 13px;
+  font-size: 14px;
   font-family: s-regular;
 }
 
 .navtitle:hover {
-  text-decoration: underline;
 }
 
 
@@ -100,12 +105,20 @@ h1.loop {
   height: 100vh;
   position: relative;
   background-color: #63fff2;
-
+  align-content: center;
 }
 
 hr {
   border-top: 1px solid black;
-  width: 80%;
+  width: 100%;
+}
+
+a:hover {
+  border: 0px;
+}
+
+.workImg {
+  margin-left: 200px;
 }
 
 h1 {
@@ -273,6 +286,8 @@ h1#age.card-text {
 margin: -8px;
 }
 
+
+
 .listTitle {
   font-family: "r-bold";
   font-size: 18px;
@@ -280,14 +295,36 @@ margin: -8px;
 }
 
 .listContent {
-  font-family: "r-light";
+  font-family: "s-regular";
   font-size: 17px;
+}
+
+.structure {
+margin-left: auto;
+  margin-right: auto;
+}
+
+
+img.arrow {
+  margin-top: 70px;
+  margin-left: 20px;
+  align-content: center;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-30px); }
+}
+.arrow{
+  animation: bounce 1.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 .client {
   font-family: r-bold;
   font-size: 40px;
-  color: #00D9E9;
+  color: #FF4141;
 }
 
 .prInfo {
@@ -331,6 +368,25 @@ h6 {
 }
 .col-12 {
   margin: 0 auto;
+}
+
+I.fas.fa-long-arrow-alt-left {
+  color: #ffc107;
+}
+
+I.fas.fa-long-arrow-alt-left:hover {
+  color: #ffc107;
+  border: 0px;
+}
+
+I.fas.fa-long-arrow-alt-right {
+  color: #ffc107;
+  border: 0;
+}
+
+I.fas.fa-long-arrow-alt-right:hover {
+  color: #ffc107;
+  border-color: #ffc107;
 }
 
 
@@ -395,15 +451,21 @@ h6 {
   font-size: 30px;
   letter-spacing: 3px;
   transform: rotate(20deg) ;
-color: #000000;
+  color: #000000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00D9E;
 }
 
 .loop:hover{
-  color: #00D9E9;
+  color: #FF4141;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #00D9E9;
+  -webkit-text-stroke-color: #00D9E;
 }
 
+a:hover {
+  text-decoration: underline;
+  border: 0px;
+}
 
 .ido {
   margin-top: 70px;
