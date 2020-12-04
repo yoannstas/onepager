@@ -114,7 +114,7 @@ hr {
 }
 
 a:hover {
-  border: 0px;
+  border: 0;
 }
 
 .workImg {
@@ -299,10 +299,7 @@ margin: -8px;
   font-size: 17px;
 }
 
-.structure {
-margin-left: auto;
-  margin-right: auto;
-}
+
 
 
 img.arrow {
