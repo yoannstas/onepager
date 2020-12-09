@@ -10,7 +10,7 @@ function countUp(maxNum, id, timeInterval) {
         }
     }, timeInterval);
 }
-countUp(1985, 'age', 10);
+countUp(1985, 'age', 50);
 
 $(window).scroll(function() {
     $('.fade-in').each(function() {

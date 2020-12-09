@@ -113,9 +113,7 @@ hr {
   width: 100%;
 }
 
-a:hover {
-  border: 0;
-}
+
 
 .workImg {
   margin-left: 200px;
@@ -372,7 +370,7 @@ I.fas.fa-long-arrow-alt-left {
 }
 
 I.fas.fa-long-arrow-alt-left:hover {
-  color: #ffc107;
+  color: #07ffcd;
   border: 0px;
 }
 
@@ -382,8 +380,8 @@ I.fas.fa-long-arrow-alt-right {
 }
 
 I.fas.fa-long-arrow-alt-right:hover {
-  color: #ffc107;
-  border-color: #ffc107;
+  color: #07ffcd;
+border: 0px;
 }
 
 
@@ -459,10 +457,7 @@ I.fas.fa-long-arrow-alt-right:hover {
   -webkit-text-stroke-color: #00D9E;
 }
 
-a:hover {
-  text-decoration: underline;
-  border: 0px;
-}
+
 
 .ido {
   margin-top: 70px;
@@ -504,10 +499,10 @@ div.card-body {
 }
 
 a:hover {
-  color: #ffffff;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-  text-decoration: none;
+  color: #ff4141;
+  /* -webkit-text-stroke-width: 2px; */
+  /* -webkit-text-stroke-color: black; */
+  text-decoration: underline;
 }
 
 .footer #button{
